@@ -27,4 +27,16 @@
             printf("\ncadastro da cidade %d:\n",i+1);
 
             printf("codigo da cidade:");
+            scanf("%d",&cidades[i].codigo);
+
+            printf("nome da cidade:");
+            scanf("%[^\n]",cidades[i].nome);//captura a string com espaços
+
+            printf("populacao.");
+            scanf("%d",&cidades[i].populacao);
+
+            printf("Area(em km²):");
+            scanf("%f",&cidades[i].area);
+
+            printf("")
 
